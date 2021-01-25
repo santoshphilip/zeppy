@@ -2,7 +2,12 @@
 ----------
 
 - send_pyobj and recv_pyobj just pickle the message
-- might as well pickle by hand.
+- might as well pickle by hand -> DONE
+
+- all kinds of problems in eppy_rtreq.py
+    -  number of simulations = number of threads * X
+    - still issues with 3 threads, 3 simulations
+    - run them in threads as processes in separate terminals to see what is going on.
 
 2021-01-21
 ----------
