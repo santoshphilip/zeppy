@@ -26,7 +26,7 @@ def zeppy_runandget(idftxt, wfiletxt, getdict):
         open(idf_temp_file, "w").write(idftxt)
         wfile_temp_file = f"{tmpdir}/a.epw"
         open(wfile_temp_file, "w").write(wfiletxt)
-        print("saved temp files")
+        # print("saved temp files")
         idf_temp = eppy.openidf(idf_temp_file, epw=wfile_temp_file)
         fullresult = runandget.anon_runandget(idf_temp, getdict)
         print(fullresult)

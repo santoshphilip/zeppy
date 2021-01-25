@@ -1,5 +1,10 @@
+2021-01-25
+----------
+
+- send_pyobj and recv_pyobj just pickle the message
+- might as well pickle by hand.
+
 2021-01-21
-2020-11-21
 ----------
 
 do runandget with REP-REQ
